@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+<<<<<<< HEAD
 import Learn from './components/Learn';
 import Reference from './components/Reference';
 import Community from './components/Community';
@@ -19,6 +20,27 @@ import UseContext from './components/UseContext';
 import ReactCommunity from './components/ReactCommunity';
 import Conferences from './components/Conferences';
 import MeetUps from './components/MeetUps';
+=======
+import Learn from './Learn';
+import Reference from './Reference';
+import Community from './Community';
+import Blog from './Blog';
+import WebPage from './WebPage';
+import WebNav from './WebNav';
+import WebQuickStart from './WebQuickStart';
+import Installation from './Installation';
+import TutorialTic from './TutorialTic';
+import ThinkingReact from './ThinkingReact';
+import StartNewReact from './StartNewReact';
+import ExistingProject from './ExistingProject';
+import Describing from './Describing';
+import Hooks from './Hooks';
+import UseCallBack from './UseCallBack';
+import UseContext from './UseContext';
+import ReactCommunity from './ReactCommunity';
+import Conferences from './Conferences';
+import MeetUps from './MeetUps';
+>>>>>>> 639b5e065de98c04b1925698d75f4fca8bacd14d
 export default function MyRouter() {
     return (
         <BrowserRouter>

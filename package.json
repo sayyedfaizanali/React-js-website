@@ -2,6 +2,7 @@
   "name": "react-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sayyedfaizanali.github.io/React-js-website/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -38,4 +39,5 @@
       "last 1 safari version"
     ]
   }
+  
 }

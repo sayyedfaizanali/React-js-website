@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Learn from './components/Learn';
 import Reference from './components/Reference';
 import Community from './components/Community';
@@ -19,13 +19,14 @@ import UseContext from './components/UseContext';
 import ReactCommunity from './components/ReactCommunity';
 import Conferences from './components/Conferences';
 import MeetUps from './components/MeetUps';
+
 export default function MyRouter() {
     return (
-        <BrowserRouter>
+        <Router>
             <Routes>
                 <Route path="/" element={<WebNav />}>
                     <Route index element={<WebPage />} />
-                    <Route path='learn' element={<Learn />} >
+                    <Route path='learn' element={<Learn />}>
                         <Route index element={<WebQuickStart />} />
                         <Route path='installation' element={<Installation />} />
                         <Route path='learn-react' element={<WebQuickStart />} />
@@ -35,19 +36,20 @@ export default function MyRouter() {
                         <Route path='add-react-to-an-existing-project' element={<ExistingProject />} />
                         <Route path='describing-the-ui' element={<Describing />} />
                     </Route>
-                    <Route path="reference" element={<Reference />} >
+                    <Route path="reference" element={<Reference />}>
                         <Route index element={<Hooks />} />
-                        <Route path='react' element={<Hooks />} /> 
+                        <Route path='react' element={<Hooks />} />
                         <Route path='react/useCallback' element={<UseCallBack />} />
                         <Route path='react/useContext' element={<UseContext />} />
                     </Route>
-                    <Route path="community" element={<Community />} >
-                    <Route index element={<ReactCommunity />} />
-                    <Route path='conferences' element={<Conferences />} /> 
-                    <Route path='meetups' element={<MeetUps />} /> 
+                    <Route path="community" element={<Community />}>
+                        <Route index element={<ReactCommunity />} />
+                        <Route path='conferences' element={<Conferences />} />
+                        <Route path='meetups' element={<MeetUps />} />
                     </Route>
                     <Route path="blog" element={<Blog />} />
                 </Route>
             </Routes>
-        </BrowserRouter>)
+        </Router>
+    );
 }

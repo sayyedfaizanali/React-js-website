@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-js-website/static/css/main.06cfb778.css",
+    "main.js": "/React-js-website/static/js/main.e6496425.js",
+    "static/js/787.7ebdfcd6.chunk.js": "/React-js-website/static/js/787.7ebdfcd6.chunk.js",
+    "static/media/pagecarousel.png": "/React-js-website/static/media/pagecarousel.8e00cbb9aa9b2a5e7ac1.png",
+    "static/media/Carouselimage2.png": "/React-js-website/static/media/Carouselimage2.1b8ba080c57371b85d89.png",
+    "static/media/myvideo.png": "/React-js-website/static/media/myvideo.9c281c9b485e06783a7e.png",
+    "static/media/usecontext.png": "/React-js-website/static/media/usecontext.43c755c909b3593305fc.png",
+    "static/media/LinksofCallBack.png": "/React-js-website/static/media/LinksofCallBack.812142e91fcc70d29335.png",
+    "static/media/Appjs.png": "/React-js-website/static/media/Appjs.8112c52e37b15a9891cf.png",
+    "static/media/fruitsandvegetables.png": "/React-js-website/static/media/fruitsandvegetables.1dbb6477df73b61242f6.png",
+    "static/media/install.png": "/React-js-website/static/media/install.a10cada4ffc786268003.png",
+    "static/media/logo.svg": "/React-js-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-js-website/index.html",
+    "main.06cfb778.css.map": "/React-js-website/static/css/main.06cfb778.css.map",
+    "main.e6496425.js.map": "/React-js-website/static/js/main.e6496425.js.map",
+    "787.7ebdfcd6.chunk.js.map": "/React-js-website/static/js/787.7ebdfcd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06cfb778.css",
+    "static/js/main.e6496425.js"
+  ]
+}
